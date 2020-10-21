@@ -1,8 +1,9 @@
 @charset "UTF-8";
-/*TAMAÑOS (w-425px, w-768px, y w-1024px)*/
+/*TAMAÑOS (w-425px, w-768px, w-992px y w-1200px)*/
 /*Variables*/
 body {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  margin: 0; }
 
 /*Header*/
 header {
@@ -33,7 +34,7 @@ footer p {
   color: white;
   position: absolute;
   top: 28vh;
-  right: 20vw;
+  right: 18%;
   font-size: 2.3em;
   z-index: 1;
   width: 25vw; }
@@ -42,16 +43,16 @@ footer p {
   .main__text {
     position: absolute;
     top: 27vh;
-    right: 16vw;
+    right: 18%;
     font-size: 2.5rem;
     z-index: 1;
     width: 28vw; } }
 
-@media (min-width: 1024px) {
+@media (min-width: 1000px) {
   .main__text {
     position: absolute;
-    top: 20vh;
-    right: 14vw;
+    top: 15vh;
+    right: 12%;
     font-size: 3.6rem;
     width: 30vw; } }
 
