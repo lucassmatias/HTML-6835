@@ -1,17 +1,21 @@
 @charset "UTF-8";
-/*TAMAÑOS (w-425px, w-768px, w-992px y w-1200px)*/
 /*Variables*/
 body {
   font-size: 62.5%;
-  margin: 0; }
+  margin: 0;
+  padding: 0; }
 
 /*Header*/
 header {
   background-color: black; }
 
 .header__nav {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   margin-top: 1vh; }
+
+@media (min-width: 1000px) {
+  .header__nav {
+    font-size: 1.1rem; } }
 
 /*Footer*/
 footer {
@@ -31,41 +35,27 @@ footer p {
 /***************************INDEX.HTML***************************/
 /*Main*/
 .main__text {
+  background-image: url("../imagenes/auriStinger.jpg");
+  height: 70vh;
+  background-repeat: no-repeat; }
+
+.main__text-text {
+  font-size: calc(1.925rem + 8.1vw);
+  width: 100%;
+  padding-left: 15%;
+  z-index: 2;
+  padding-top: 10vh;
   color: white;
-  position: absolute;
-  top: 28vh;
-  right: 18%;
-  font-size: 2.3em;
-  z-index: 1;
-  width: 25vw; }
-
-@media (min-width: 768px) {
-  .main__text {
-    position: absolute;
-    top: 27vh;
-    right: 18%;
-    font-size: 2.5rem;
-    z-index: 1;
-    width: 28vw; } }
-
-@media (min-width: 1000px) {
-  .main__text {
-    position: absolute;
-    top: 15vh;
-    right: 12%;
-    font-size: 3.6rem;
-    width: 30vw; } }
-
-/*Images*/
-@media (min-width: 1024px) {
-  .images {
-    margin-left: 4.3vw; }
-  .images__title {
-    font-size: 2.5em;
-    margin-right: 8vw; } }
+  font-family: 'Staatliches', cursive; }
+  @media (min-width: 1200px) {
+    .main__text-text {
+      font-size: 8rem; } }
 
 .images__title {
-  font-size: 2em; }
+  font-size: calc(1.275rem + 0.3vw); }
+  @media (min-width: 1200px) {
+    .images__title {
+      font-size: 1.5rem; } }
 
 /***************************AURICULARES.HTML***************************/
 /*Texts styles*/
@@ -85,18 +75,45 @@ footer p {
 /*Positions*/
 .auriculares1 {
   position: absolute;
-  left: 15vh;
-  top: 30vh; }
+  top: 20%;
+  left: 15%; }
 
 .auriculares2 {
   position: absolute;
-  left: 15vh;
-  top: 60vh; }
+  top: 50%;
+  left: 33%; }
+
+.auriculares2__text h1 {
+  text-align: center; }
+
+.auriculares2__text .btn {
+  margin-left: 33%; }
 
 .auriculares3 {
   position: absolute;
-  left: 15vh;
-  top: 90vh; }
+  top: 70%;
+  left: 60%; }
+
+.auriculares3__text h1, .auriculares3__text p {
+  color: #353535; }
+
+@media (min-width: 460px) {
+  .auriculares3 {
+    position: absolute;
+    top: 80vh; } }
+
+@media (min-width: 540px) {
+  .auriculares2 {
+    position: absolute;
+    top: 65%; }
+  .auriculares3 {
+    position: absolute;
+    top: 95vh; } }
+
+@media (min-width: 640px) {
+  .auriculares3 {
+    position: absolute;
+    top: 110vh; } }
 
 @media (min-width: 768px) {
   .auriculares1__text h1, .auriculares2__text h1, .auriculares3__text h1 {
@@ -105,12 +122,10 @@ footer p {
     font-size: 1rem; }
   .auriculares2 {
     position: absolute;
-    left: 15vh;
     top: 80vh; }
   .auriculares3 {
     position: absolute;
-    left: 15vh;
-    top: 140vh; } }
+    top: 130vh; } }
 
 @media (min-width: 1024px) {
   .auriculares1__text h1, .auriculares2__text h1, .auriculares3__text h1 {
@@ -119,19 +134,36 @@ footer p {
     font-size: 1.5rem; }
   .auriculares2 {
     position: absolute;
-    left: 15vh;
     top: 90vh; }
   .auriculares3 {
     position: absolute;
-    left: 15vh;
     top: 170vh; } }
+
+@media (min-width: 1400px) {
+  .auriculares2 {
+    position: absolute;
+    top: 110vh; }
+  .auriculares3 {
+    position: absolute;
+    top: 200vh; } }
+
+@media (min-width: 1640px) {
+  .auriculares2 {
+    position: absolute;
+    top: 120vh; }
+  .auriculares3 {
+    position: absolute;
+    top: 220vh; } }
 
 /***************************TECLADOS.HTML***************************/
 /*Texts styles*/
 .teclados1__text, .teclados2__text, .teclados3__text {
   color: white; }
   .teclados1__text h1, .teclados2__text h1, .teclados3__text h1 {
-    font-size: 1rem; }
+    font-size: calc(1.275rem + 0.3vw); }
+    @media (min-width: 1200px) {
+      .teclados1__text h1, .teclados2__text h1, .teclados3__text h1 {
+        font-size: 1.5rem; } }
   .teclados1__text p, .teclados2__text p, .teclados3__text p {
     padding-bottom: 0px; }
 
@@ -151,9 +183,38 @@ footer p {
   top: 75vh;
   left: 15vw; }
 
+@media (min-width: 505px) {
+  .teclados2 {
+    position: absolute;
+    top: 58vh; }
+  .teclados3 {
+    position: absolute;
+    top: 83vh; } }
+
+@media (min-width: 575px) {
+  .teclados2 {
+    position: absolute;
+    top: 64vh; }
+  .teclados3 {
+    position: absolute;
+    top: 97vh; } }
+
+@media (min-width: 630px) {
+  .teclados2 {
+    position: absolute;
+    top: 70vh; }
+  .teclados3 {
+    position: absolute;
+    top: 107vh; } }
+
 @media (min-width: 768px) {
   .teclados1__text h1, .teclados2__text h1, .teclados3__text h1 {
-    font-size: 1.5rem; }
+    font-size: calc(1.275rem + 0.3vw); } }
+  @media (min-width: 768px) and (min-width: 1200px) {
+    .teclados1__text h1, .teclados2__text h1, .teclados3__text h1 {
+      font-size: 1.5rem; } }
+
+@media (min-width: 768px) {
   .teclados1__text p, .teclados2__text p, .teclados3__text p {
     font-size: 1rem; }
   .teclados2 {
@@ -162,6 +223,14 @@ footer p {
   .teclados3 {
     position: absolute;
     top: 120vh; } }
+
+@media (min-width: 930px) {
+  .teclados2 {
+    position: absolute;
+    top: 82vh; }
+  .teclados3 {
+    position: absolute;
+    top: 128vh; } }
 
 @media (min-width: 1024px) {
   .teclados1__text h1, .teclados2__text h1, .teclados3__text h1 {
@@ -174,6 +243,22 @@ footer p {
   .teclados3 {
     position: absolute;
     top: 150vh; } }
+
+@media (min-width: 1200px) {
+  .teclados2 {
+    position: absolute;
+    top: 98vh; }
+  .teclados3 {
+    position: absolute;
+    top: 165vh; } }
+
+@media (min-width: 1370px) {
+  .teclados2 {
+    position: absolute;
+    top: 130vh; }
+  .teclados3 {
+    position: absolute;
+    top: 220vh; } }
 
 /***************************ESPORTS.HTML***************************/
 .esports__main .esports__main-text {
@@ -207,6 +292,18 @@ footer p {
   display: inline-flex;
   flex-flow: column wrap;
   padding-left: 25vw; }
+
+@media (min-width: 500px) {
+  .esports__sec-logos {
+    display: grid;
+    grid-row-gap: 5vh;
+    padding-top: 4vh; } }
+
+@media (min-width: 680px) {
+  .esports__sec-logos {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    grid-row-gap: 10vh; } }
 
 @media (min-width: 768px) {
   .esports__sec-logos {
