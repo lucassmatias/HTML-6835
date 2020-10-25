@@ -56,16 +56,122 @@ footer p {
     .images__title {
       font-size: 1.5rem; } }
 
+/***************************TECLADOS.HTML***************************/
+/*Texts styles*/
+.producto-pos1__text, .producto-pos2__text, .producto-pos3__text {
+  color: white; }
+  .producto-pos1__text h1, .producto-pos2__text h1, .producto-pos3__text h1 {
+    font-size: calc(1.275rem + 0.3vw);
+    font-family: 'Staatliches', cursive; }
+    @media (min-width: 1200px) {
+      .producto-pos1__text h1, .producto-pos2__text h1, .producto-pos3__text h1 {
+        font-size: 1.5rem; } }
+  .producto-pos1__text p, .producto-pos2__text p, .producto-pos3__text p {
+    padding-bottom: 0px; }
+
+/*Positions*/
+.producto-pos1 {
+  position: absolute;
+  top: 25vh;
+  right: 10vw; }
+
+.producto-pos2 {
+  position: absolute;
+  top: 50vh;
+  left: 15vw; }
+
+.producto-pos3 {
+  position: absolute;
+  top: 75vh;
+  left: 15vw; }
+
+@media (min-width: 505px) {
+  .producto-pos2 {
+    position: absolute;
+    top: 58vh; }
+  .producto-pos3 {
+    position: absolute;
+    top: 83vh; } }
+
+@media (min-width: 575px) {
+  .producto-pos2 {
+    position: absolute;
+    top: 64vh; }
+  .producto-pos3 {
+    position: absolute;
+    top: 97vh; } }
+
+@media (min-width: 630px) {
+  .producto-pos2 {
+    position: absolute;
+    top: 70vh; }
+  .producto-pos3 {
+    position: absolute;
+    top: 107vh; } }
+
+@media (min-width: 768px) {
+  .producto-pos1__text h1, .producto-pos2__text h1, .producto-pos3__text h1 {
+    font-size: calc(1.275rem + 0.3vw); } }
+  @media (min-width: 768px) and (min-width: 1200px) {
+    .producto-pos1__text h1, .producto-pos2__text h1, .producto-pos3__text h1 {
+      font-size: 1.5rem; } }
+
+@media (min-width: 768px) {
+  .producto-pos1__text p, .producto-pos2__text p, .producto-pos3__text p {
+    font-size: 1rem; }
+  .producto-pos2 {
+    position: absolute;
+    top: 75vh; }
+  .producto-pos3 {
+    position: absolute;
+    top: 120vh; } }
+
+@media (min-width: 930px) {
+  .producto-pos2 {
+    position: absolute;
+    top: 82vh; }
+  .producto-pos3 {
+    position: absolute;
+    top: 128vh; } }
+
+@media (min-width: 1024px) {
+  .producto-pos1__text h1, .producto-pos2__text h1, .producto-pos3__text h1 {
+    font-size: 2rem; }
+  .producto-pos1__text p, .producto-pos2__text p, .producto-pos3__text p {
+    font-size: 1.5rem; }
+  .producto-pos2 {
+    position: absolute;
+    top: 85vh; }
+  .producto-pos3 {
+    position: absolute;
+    top: 150vh; } }
+
+@media (min-width: 1200px) {
+  .producto-pos2 {
+    position: absolute;
+    top: 98vh; }
+  .producto-pos3 {
+    position: absolute;
+    top: 165vh; } }
+
+@media (min-width: 1370px) {
+  .producto-pos2 {
+    position: absolute;
+    top: 130vh; }
+  .producto-pos3 {
+    position: absolute;
+    top: 220vh; } }
+
 /***************************AURICULARES.HTML***************************/
 /*Texts styles*/
-.auriculares1__text, .auriculares2__text, .auriculares3__text {
+.producto-pos4__text, .producto-pos5__text, .producto-pos6__text {
   color: white; }
-  .auriculares1__text h1, .auriculares2__text h1, .auriculares3__text h1 {
+  .producto-pos4__text h1, .producto-pos5__text h1, .producto-pos6__text h1 {
     font-size: 1rem;
     font-family: 'Staatliches', cursive; }
-  .auriculares1__text p, .auriculares2__text p, .auriculares3__text p {
+  .producto-pos4__text p, .producto-pos5__text p, .producto-pos6__text p {
     padding-bottom: 0px; }
-  .auriculares1__text div, .auriculares2__text div, .auriculares3__text div {
+  .producto-pos4__text div, .producto-pos5__text div, .producto-pos6__text div {
     margin-top: 0.5vh;
     border: 1px black solid;
     display: inline;
@@ -73,188 +179,82 @@ footer p {
     background-color: #a20520; }
 
 /*Positions*/
-.auriculares1 {
+.producto-pos4 {
   position: absolute;
   top: 20%;
   left: 15%; }
 
-.auriculares2 {
+.producto-pos5 {
   position: absolute;
   top: 50%;
   left: 33%; }
 
-.auriculares2__text h1 {
+.producto-pos5__text h1 {
   text-align: center; }
 
-.auriculares2__text .btn {
+.producto-pos5__text .btn {
   margin-left: 33%; }
 
-.auriculares3 {
+.producto-pos6 {
   position: absolute;
   top: 70%;
   left: 60%; }
 
 @media (min-width: 460px) {
-  .auriculares3 {
+  .producto-pos6 {
     position: absolute;
     top: 80vh; } }
 
 @media (min-width: 540px) {
-  .auriculares2 {
+  .producto-pos5 {
     position: absolute;
     top: 65%; }
-  .auriculares3 {
+  .producto-pos6 {
     position: absolute;
     top: 95vh; } }
 
 @media (min-width: 640px) {
-  .auriculares3 {
+  .producto-pos6 {
     position: absolute;
     top: 110vh; } }
 
 @media (min-width: 768px) {
-  .auriculares1__text h1, .auriculares2__text h1, .auriculares3__text h1 {
+  .producto-pos4__text h1, .producto-pos5__text h1, .producto-pos6__text h1 {
     font-size: 1.5rem; }
-  .auriculares1__text p, .auriculares2__text p, .auriculares3__text p {
+  .producto-pos4__text p, .producto-pos5__text p, .producto-pos6__text p {
     font-size: 1rem; }
-  .auriculares2 {
+  .producto-pos5 {
     position: absolute;
     top: 80vh; }
-  .auriculares3 {
+  .producto-pos6 {
     position: absolute;
     top: 130vh; } }
 
 @media (min-width: 1024px) {
-  .auriculares1__text h1, .auriculares2__text h1, .auriculares3__text h1 {
+  .producto-pos4__text h1, .producto-pos5__text h1, .producto-pos6__text h1 {
     font-size: 2rem; }
-  .auriculares1__text p, .auriculares2__text p, .auriculares3__text p {
+  .producto-pos4__text p, .producto-pos5__text p, .producto-pos6__text p {
     font-size: 1.5rem; }
-  .auriculares2 {
+  .producto-pos5 {
     position: absolute;
     top: 90vh; }
-  .auriculares3 {
+  .producto-pos6 {
     position: absolute;
     top: 170vh; } }
 
 @media (min-width: 1400px) {
-  .auriculares2 {
+  .producto-pos5 {
     position: absolute;
     top: 110vh; }
-  .auriculares3 {
+  .producto-pos6 {
     position: absolute;
     top: 200vh; } }
 
 @media (min-width: 1640px) {
-  .auriculares2 {
+  .producto-pos5 {
     position: absolute;
     top: 120vh; }
-  .auriculares3 {
-    position: absolute;
-    top: 220vh; } }
-
-/***************************TECLADOS.HTML***************************/
-/*Texts styles*/
-.teclados1__text, .teclados2__text, .teclados3__text {
-  color: white; }
-  .teclados1__text h1, .teclados2__text h1, .teclados3__text h1 {
-    font-size: calc(1.275rem + 0.3vw);
-    font-family: 'Staatliches', cursive; }
-    @media (min-width: 1200px) {
-      .teclados1__text h1, .teclados2__text h1, .teclados3__text h1 {
-        font-size: 1.5rem; } }
-  .teclados1__text p, .teclados2__text p, .teclados3__text p {
-    padding-bottom: 0px; }
-
-/*Positions*/
-.teclados1 {
-  position: absolute;
-  top: 25vh;
-  right: 10vw; }
-
-.teclados2 {
-  position: absolute;
-  top: 50vh;
-  left: 15vw; }
-
-.teclados3 {
-  position: absolute;
-  top: 75vh;
-  left: 15vw; }
-
-@media (min-width: 505px) {
-  .teclados2 {
-    position: absolute;
-    top: 58vh; }
-  .teclados3 {
-    position: absolute;
-    top: 83vh; } }
-
-@media (min-width: 575px) {
-  .teclados2 {
-    position: absolute;
-    top: 64vh; }
-  .teclados3 {
-    position: absolute;
-    top: 97vh; } }
-
-@media (min-width: 630px) {
-  .teclados2 {
-    position: absolute;
-    top: 70vh; }
-  .teclados3 {
-    position: absolute;
-    top: 107vh; } }
-
-@media (min-width: 768px) {
-  .teclados1__text h1, .teclados2__text h1, .teclados3__text h1 {
-    font-size: calc(1.275rem + 0.3vw); } }
-  @media (min-width: 768px) and (min-width: 1200px) {
-    .teclados1__text h1, .teclados2__text h1, .teclados3__text h1 {
-      font-size: 1.5rem; } }
-
-@media (min-width: 768px) {
-  .teclados1__text p, .teclados2__text p, .teclados3__text p {
-    font-size: 1rem; }
-  .teclados2 {
-    position: absolute;
-    top: 75vh; }
-  .teclados3 {
-    position: absolute;
-    top: 120vh; } }
-
-@media (min-width: 930px) {
-  .teclados2 {
-    position: absolute;
-    top: 82vh; }
-  .teclados3 {
-    position: absolute;
-    top: 128vh; } }
-
-@media (min-width: 1024px) {
-  .teclados1__text h1, .teclados2__text h1, .teclados3__text h1 {
-    font-size: 2rem; }
-  .teclados1__text p, .teclados2__text p, .teclados3__text p {
-    font-size: 1.5rem; }
-  .teclados2 {
-    position: absolute;
-    top: 85vh; }
-  .teclados3 {
-    position: absolute;
-    top: 150vh; } }
-
-@media (min-width: 1200px) {
-  .teclados2 {
-    position: absolute;
-    top: 98vh; }
-  .teclados3 {
-    position: absolute;
-    top: 165vh; } }
-
-@media (min-width: 1370px) {
-  .teclados2 {
-    position: absolute;
-    top: 130vh; }
-  .teclados3 {
+  .producto-pos6 {
     position: absolute;
     top: 220vh; } }
 
