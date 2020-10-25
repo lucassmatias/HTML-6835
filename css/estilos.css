@@ -10,7 +10,7 @@ header {
   background-color: black; }
 
 .header__nav {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   margin-top: 1vh; }
 
 @media (min-width: 1000px) {
@@ -36,8 +36,7 @@ footer p {
 /*Main*/
 .main__text {
   background-image: url("../imagenes/auriStinger.jpg");
-  height: 70vh;
-  background-repeat: no-repeat; }
+  height: 70vh; }
 
 .main__text-text {
   font-size: calc(1.925rem + 8.1vw);
@@ -62,7 +61,8 @@ footer p {
 .auriculares1__text, .auriculares2__text, .auriculares3__text {
   color: white; }
   .auriculares1__text h1, .auriculares2__text h1, .auriculares3__text h1 {
-    font-size: 1rem; }
+    font-size: 1rem;
+    font-family: 'Staatliches', cursive; }
   .auriculares1__text p, .auriculares2__text p, .auriculares3__text p {
     padding-bottom: 0px; }
   .auriculares1__text div, .auriculares2__text div, .auriculares3__text div {
@@ -93,9 +93,6 @@ footer p {
   position: absolute;
   top: 70%;
   left: 60%; }
-
-.auriculares3__text h1, .auriculares3__text p {
-  color: #353535; }
 
 @media (min-width: 460px) {
   .auriculares3 {
@@ -160,7 +157,8 @@ footer p {
 .teclados1__text, .teclados2__text, .teclados3__text {
   color: white; }
   .teclados1__text h1, .teclados2__text h1, .teclados3__text h1 {
-    font-size: calc(1.275rem + 0.3vw); }
+    font-size: calc(1.275rem + 0.3vw);
+    font-family: 'Staatliches', cursive; }
     @media (min-width: 1200px) {
       .teclados1__text h1, .teclados2__text h1, .teclados3__text h1 {
         font-size: 1.5rem; } }
@@ -272,7 +270,8 @@ footer p {
   text-align: center; }
 
 .esports__sec p {
-  font-size: 0.9rem; }
+  font-size: 0.9rem;
+  text-align: center; }
 
 .esports__sec-logos {
   background-color: black;
