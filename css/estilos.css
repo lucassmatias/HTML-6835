@@ -394,17 +394,19 @@ footer p {
   margin: 0px 2vw; }
 
 .informacionAdicional__titulo {
-  font-size: 1.5rem; }
+  text-align: center; }
+  .informacionAdicional__titulo h1 {
+    font-size: 1.5rem; }
 
 .informacionAdicional__segundoTitulo {
-  font-size: 1.5rem; }
+  font-size: 1.2rem; }
 
 .informacionAdicional__subtitulo {
-  font-size: 1.1rem; }
+  font-size: 1rem; }
   .informacionAdicional__subtitulo p, .informacionAdicional__subtitulo ul {
-    font-size: 0.9rem; }
-  .informacionAdicional__subtitulo li {
     font-size: 0.8rem; }
+  .informacionAdicional__subtitulo li {
+    font-size: 0.7rem; }
 
 @media (min-width: 768px) {
   .informacionAdicional__text {
@@ -414,7 +416,7 @@ footer p {
   .informacionAdicional__segundoTitulo {
     font-size: 1.8rem; }
   .informacionAdicional__subtitulo {
-    font-size: 1.4rem; }
+    font-size: 1.5rem; }
     .informacionAdicional__subtitulo p, .informacionAdicional__subtitulo ul {
       font-size: 1.2rem; }
     .informacionAdicional__subtitulo li {
